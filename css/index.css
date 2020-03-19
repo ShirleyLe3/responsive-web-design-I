@@ -179,9 +179,29 @@ hr {
 
 
 /* //Tablet View// */
+@media (max-width: 800px) {
+    .container {
+  /*         background: pink; */
+          width: 500px;
+      }  
+    .header, .logo, .brand {
+          flex-direction: column;
+          align-content: center;
+      }
+    .logo {
+      display: flex;
+      order: -1;
+      padding-bottom: 2rem;
+    }
+    .header-img {
+      visibility: hidden;
+      height:0px;
+    }
 
-
-
+    /* article p{
+        font-size: 2vmin;
+    } */
+/* for resizing to window screen */
 
 
 
@@ -199,7 +219,7 @@ hr {
 
 
 /* //Mobile View// */
-@media (max-width: 700px) {
+@media (max-width: 500px) {
   .container {
 /*         background: pink; */
         width: 500px;
