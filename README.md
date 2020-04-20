@@ -25,10 +25,20 @@ Follow these steps for completing your project.
 * [ ] Insert a `viewport` meta tag into the head of the project with these html attributes: `content="width=device-width, initial-scale=1"`
 * [ ] Introduce max-width media queries into your project at 800px and 500px  
 * [ ] Do your best to make your styles match the design files at each breakpoint 
+* [ ]  Insert a viewport meta tag into the head of the project with these html attributes: content="width=device-width, initial-scale=1"
+* [ ]  Introduce max-width media queries into your project at 800px and 500px
+* [ ]  Change CSS styles from hard-coded px to any one of the responsive units learned today
+* [ ]  Add accessability features to your webpage
 
 ## Stretch Goals: 
 * [ ] Create a tablet and mobile version of the services page from previous projects
 * [ ] Once you have completed the project with max-width media queries, start over with min-width media queries to get a feel for how a mobile first approach would be like.  I recommend making a copy of all your contents in a new folder named "mobile-first" to keep it separate
+* [ ] Test your website at several breakpoints and refactor code as needed. A few common breakpoints are below:
+ iPhone: 360×640
+ Laptop: 1366×768
+ Widescreen: 1920×1080
+* [ ] Test your webpage's accessibility with a screen reader like this
+* [ ] Start over with min-width media queries to get a feel for how a mobile first approach would be like. I recommend making a branch of all your content in a new folder named "mobile-first" to keep it separate
 
 
 
